@@ -1,0 +1,13 @@
+{
+  "name": "minitroopers-copilot",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server",
+    "shared"
+  ],
+  "scripts": {
+    "bootstrap": "npm install --workspaces",
+    "test": "echo \"No tests at root. Run workspace tests.\""
+  }
+}
