@@ -8,6 +8,11 @@
   ],
   "scripts": {
     "bootstrap": "npm install --workspaces",
-    "test": "echo \"No tests at root. Run workspace tests.\""
+    "lint": "eslint . --ext .js,.ts,.tsx || true",
+    "test": "jest --passWithNoTests"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "jest": "^29.5.0"
   }
 }
